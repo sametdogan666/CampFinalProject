@@ -30,7 +30,7 @@ namespace WebAPI.Controllers
         {
             // Dependency chain --
 
-            Thread.Sleep(5);
+            Thread.Sleep(1);
 
             var result = _productService.GetAll();
             if (result.Success)
